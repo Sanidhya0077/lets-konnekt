@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+
+    <title>Let's Konnekt</title>
+    <img src="images/3.png" width="190" class="title" />
+    <h2 id="tagline">A social media platform which helps you <br>connect people from all around the world.<br />
+    </h2>
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <form action="/my-handling-form-page" method="post">
+        <div class="container">
+            <h1 id="formhead">Create a New Account </h1>
+            <div class="name">
+                <ul class="fname">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" />
+                </ul>
+                <ul class="lname">
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" />
+                </ul>
+            </div>
+            <ul class="email">
+                <input type="text" id="mnem" name="user_name" placeholder="Mobile Number or email address" size="64" />
+            </ul>
+            <ul class="new_password">
+                <input type="text" id="npswrd" name="password" placeholder="New Password" size="64" />
+            </ul>
+            <h3 id="dob_text">Date of Birth</h3>
+            <ul class="date_of_birth">
+                <input type="date" id="dob" />
+            </ul>
+            <h3>Gender</h3>
+            <ul class="gender">
+                <input type="radio" id="male" />
+                <label>Male</label>
+                <input type="radio" id="female" />
+                <label>Female</label>
+                <input type="radio" id="custom" />
+                <label>Custom</label>
+            </ul>
+            <button id="sign_up">Sign Up</button>
+        </div>
+    </form>
+</body>
+
+</html>
